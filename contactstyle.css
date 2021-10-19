@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.contact-section{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),url(contactus.jpg) ;
+
+  background-size: cover;
+  padding: 110px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color: black;
+}
+.border{
+  width: 500px;
+  height: 5px;
+  background: #34495e;
+  margin: 20px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: whitesmoke;
+  padding: 20px 40px;
+  outline: none;
+  color: black;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  align-content: center;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  
+  
+}
+.contact-form-btn:hover{
+  background: #50f9ff;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  
+}
+.social-icons a{
+    
+align-content: center;
+   font-size: medium;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
+  
+}
+.fa-envelope{
+  background: black;
+  color: white;
+}
+.col-md-6{
+  text-align: center;
+}
+
+
+
+
+.nav-area {
+	float:right;
+	list-style: none;
+  margin-top: -70px;
+  margin-right: 20px;
+	
+  
+}
+.nav-area li {
+	display: inline-block;
+  
+}
+.nav-area li a {
+	color: black;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+  margin-bottom: 200px;
+    
+}
+.nav-area li a:hover {
+	background: orange;
+	color: #333;
+}
